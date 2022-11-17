@@ -4,12 +4,26 @@ const router = express.Router();
 const conexion = require('./database/db');
 
 // Mostrar todos los registros
+// router.get('/', (req, res) => {
+//     conexion.query('SELECT * FROM users', (error, results) => {
+//         if (error) {
+//             throw error;
+//         } else {
+//             res.render('index', {results:results});
+//         }
+//     });
+// });
 router.get('/', (req, res) => {
+    res.render('index');
+});
+
+// Mostrar todos los registros
+router.get('/users', (req, res) => {
     conexion.query('SELECT * FROM users', (error, results) => {
         if (error) {
             throw error;
         } else {
-            res.render('index', {results:results});
+            res.render('users', {results:results});
         }
     });
 });
