@@ -11,11 +11,18 @@ Esta aplicación puede hacer operaciones CRUD create-read-update-delete de usuar
 ## Instalación
 
 ```
-git clone https://github.com/byZhetta/CRUD-Nodejs
-cd CRUD-Nodejs
+git clone https://github.com/byZhetta/app-crud-users.git
+cd app-crud-users
 npm install
 npm start
 ```
+
+## Tecnologías principales
+
+- nodejs v14.18.1
+- express v4.18.2
+- mysql v2.18.1
+- ejs v3.1.8
 
 ## Variables de entorno
 
