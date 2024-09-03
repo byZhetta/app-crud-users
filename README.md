@@ -1,4 +1,4 @@
-# CRUD de usuarios con Nodejs
+# CRUD de usuarios
 
 Esta aplicación puede hacer operaciones CRUD create-read-update-delete de usuarios, usando las plantilla de EJS.
 
